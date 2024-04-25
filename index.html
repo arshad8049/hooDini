@@ -98,7 +98,6 @@
     <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
 <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
 <df-messenger
-  oauth-client-id="INSERT_OAUTH_CLIENT_ID"
   location="us-central1"
   project-id="stip-survey-modernization"
   agent-id="4a69db0e-37aa-47ef-983f-9f1d9ba9b5e6"
@@ -108,8 +107,8 @@
    chat-title="">
   </df-messenger-chat>
 </df-messenger>
-<style>
-  df-messenger {
+    <style>
+      df-messenger {
     z-index: 999;
     position: fixed;
     --df-messenger-font-color: #000;
@@ -122,8 +121,6 @@
     top: 0;
     width: 350px;
   }
-</style>
-    <style>
       @keyframes fade-in-left {
         0% {
           opacity: 0;
